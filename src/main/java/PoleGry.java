@@ -18,7 +18,7 @@ public class PoleGry {
     public void wyswietlenieWyniku() {
         for (int i = 0; i < poleGry.length; i++) {
             for (int j = 0; j < poleGry[i].length; j++) {
-                if (poleGry[i][j] = true) {
+                if (poleGry[i][j] == true) {
                     System.out.print("\u25A0");
                 } else {
                     System.out.print("\u25A1");
