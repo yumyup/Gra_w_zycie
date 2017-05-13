@@ -57,4 +57,15 @@ public class GraWZycie {
 
         poleGry.wyswietlenieWyniku();
     }
+
+    private PoleGry kolejnyCykl(int szerokosc, int wysokosc, PoleGry poleGry) {
+        PoleGry nowePoleGry = new PoleGry(szerokosc, wysokosc);
+        for (i = 0; i <szerokosc; i++){
+            for (j=0; j<wysokosc; j++);
+            poleGry.sprawdzCzyZywa(i,j);
+        }
+
+            nowePoleGry.wyswietlenieWyniku();
+        return nowePoleGry;
+    }
 }
